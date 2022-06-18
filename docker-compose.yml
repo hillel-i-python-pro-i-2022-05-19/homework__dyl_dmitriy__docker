@@ -1,0 +1,11 @@
+version: '3.8'
+
+
+services:
+  app:
+    build: .
+    # ports:
+    #      - "45000:5000"
+    volumes:
+      - "./output:/wd/output:z"
+
