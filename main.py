@@ -1,10 +1,8 @@
-from faker import Faker
-
-faker = Faker()
+from app.main import generate_massege
 
 
 def main():
-    print(f"Hi!, {faker.unique.first_name()}")
+    print(generate_massege())
 
 
 if __name__ == '__main__':
