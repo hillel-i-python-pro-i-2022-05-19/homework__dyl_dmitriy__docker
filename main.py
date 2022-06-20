@@ -1,3 +1,4 @@
+from app.init__logging import init_logging
 from app.main import generate_massege
 
 
