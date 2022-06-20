@@ -15,8 +15,9 @@ def generate_massege() -> str:
     return f"Hi!, {faker.unique.first_name()}"
 
 
+
 def generate_file():
     temp_path = OUTPUT_PATH.joinpath(f'{ulid.new()}.txt')
-    temp_path.write_text(generate_message())
+    temp_path.write_text(generate_massege())
 
     logging.info(f'File generated at path: "{temp_path}"')
