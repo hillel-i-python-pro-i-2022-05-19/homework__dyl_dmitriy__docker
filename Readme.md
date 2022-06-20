@@ -1,3 +1,11 @@
-docker
+# My app
 
-RUN
+---
+
+## Run
+
+### Docker
+
+```shell
+make d-run
+```
